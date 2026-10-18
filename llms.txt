@@ -1,0 +1,19 @@
+# Joe Conlin — notes & work
+
+> A small staging prototype for writing and personal projects. Its sample article is demonstration copy, not a statement of Joe’s views; Patchbook is a speculative concept.
+
+## Pages
+
+- [Home](https://joeconlin.github.io/joeconlin-homepage-preview/)
+- [About](https://joeconlin.github.io/joeconlin-homepage-preview/about/)
+- [Writing index](https://joeconlin.github.io/joeconlin-homepage-preview/writing/)
+- [Projects index](https://joeconlin.github.io/joeconlin-homepage-preview/projects/)
+- [RSS feed](https://joeconlin.github.io/joeconlin-homepage-preview/index.xml)
+
+## Writing
+
+- [Notes are tools for thinking](https://joeconlin.github.io/joeconlin-homepage-preview/writing/notes-as-tools/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/writing/notes-as-tools/index.md)
+
+## Projects
+
+- [Patchbook — speculative concept](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/index.md)
