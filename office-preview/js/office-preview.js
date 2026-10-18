@@ -1,7 +1,7 @@
 (() => {
   const hero = document.querySelector('.office-hero');
   const desktopMotion = window.matchMedia(
-    '(min-width: 1200px) and (pointer: fine) and (prefers-reduced-motion: no-preference)'
+    '(min-width: 1024px) and (pointer: fine) and (prefers-reduced-motion: no-preference)'
   );
   if (!hero || !desktopMotion.matches || !('IntersectionObserver' in window)) return;
 
