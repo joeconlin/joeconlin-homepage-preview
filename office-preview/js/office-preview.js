@@ -1,13 +1,23 @@
 (() => {
-  const button = document.querySelector('.atmosphere-toggle');
-  if (!button || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    button?.remove();
-    return;
-  }
-  button.addEventListener('click', () => {
-    const paused = document.body.classList.toggle('is-paused');
-    button.setAttribute('aria-pressed', String(paused));
-    button.textContent = paused ? 'Play atmosphere' : 'Pause atmosphere';
-    button.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} subtle office atmosphere motion`);
-  });
+  const hero = document.querySelector('.office-hero');
+  const desktopMotion = window.matchMedia(
+    '(min-width: 1200px) and (pointer: fine) and (prefers-reduced-motion: no-preference)'
+  );
+  if (!hero || !desktopMotion.matches || !('IntersectionObserver' in window)) return;
+
+  let heroIsVisible = false;
+  const syncMotion = () => {
+    document.body.classList.toggle(
+      'atmosphere-running',
+      desktopMotion.matches && heroIsVisible && !document.hidden
+    );
+  };
+
+  const observer = new IntersectionObserver(([entry]) => {
+    heroIsVisible = entry.isIntersecting;
+    syncMotion();
+  }, { threshold: 0 });
+  observer.observe(hero);
+  document.addEventListener('visibilitychange', syncMotion, { passive: true });
+  desktopMotion.addEventListener('change', syncMotion);
 })();
