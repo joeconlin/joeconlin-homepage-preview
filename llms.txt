@@ -1,6 +1,6 @@
-# Joe Conlin — notes & work
+# Joe Conlin — projects and notes
 
-> A small staging prototype for writing and personal projects. Its sample article is demonstration copy, not a statement of Joe’s views; Patchbook is a speculative concept.
+> I work in technology. Outside work, I make software and spend time with synthesizers. This site collects my projects and notes.
 
 ## Pages
 
@@ -12,8 +12,10 @@
 
 ## Writing
 
-- [Notes are tools for thinking](https://joeconlin.github.io/joeconlin-homepage-preview/writing/notes-as-tools/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/writing/notes-as-tools/index.md)
+Notes and longer writing will appear here.
 
 ## Projects
 
-- [Patchbook — speculative concept](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/index.md)
+- [Patchbook](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/projects/patchbook/index.md)
+- [VFD Maker](https://joeconlin.github.io/joeconlin-homepage-preview/projects/vfd-maker/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/projects/vfd-maker/index.md) · [Source](https://github.com/joeconlin/vfd-image-maker)
+- [Pizza Scorecard](https://joeconlin.github.io/joeconlin-homepage-preview/projects/pizza-scorecard/) · [Markdown](https://joeconlin.github.io/joeconlin-homepage-preview/projects/pizza-scorecard/index.md) · [Source](https://github.com/joeconlin/pizza-ranking-app)
