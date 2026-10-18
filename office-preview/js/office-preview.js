@@ -8,6 +8,6 @@
     const paused = document.body.classList.toggle('is-paused');
     button.setAttribute('aria-pressed', String(paused));
     button.textContent = paused ? 'Play atmosphere' : 'Pause atmosphere';
-    button.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} subtle office lighting motion`);
+    button.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} subtle office atmosphere motion`);
   });
 })();
