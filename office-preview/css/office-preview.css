@@ -28,6 +28,10 @@
 .office-dust span:nth-child(7){left:71%;top:66%;--dust-delay:-2.1s;--drift-x:8px;--drift-y:-11px}
 .office-dust span:nth-child(8){left:60%;top:69%;--dust-delay:-4.9s;--drift-x:-9px;--drift-y:-7px}
 .office-dust span:nth-child(9){left:78%;top:72%;--dust-delay:-1.8s;--drift-x:11px;--drift-y:-9px}
+
+.office-dust span:nth-child(10){left:84%;top:32%;--dust-delay:-4.1s;--drift-x:-9px;--drift-y:-8px}
+.office-dust span:nth-child(11){left:62%;top:62%;--dust-delay:-.8s;--drift-x:10px;--drift-y:-8px}
+.office-dust span:nth-child(12){left:73%;top:59%;--dust-delay:-6.7s;--drift-x:-8px;--drift-y:-10px}
 .office-copy{z-index:3}
 .office-page.atmosphere-running .office-light,.office-page.atmosphere-running .office-dust span{animation-play-state:running}
 @keyframes light-breathe{from{opacity:.42;transform:translate3d(-.18%,.1%,0) scale(.995)}to{opacity:.62;transform:translate3d(.18%,-.1%,0) scale(1.005)}}
